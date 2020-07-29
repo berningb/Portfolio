@@ -1,0 +1,31 @@
+.project-box {
+    width: 500px;
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 100%;
+        margin: auto;
+    }
+    .info-container p {
+        width: 80%;
+    }
+    
+    img {
+        width: 200px;
+        height: 200px;
+         opacity:.2;
+    }
+}
+
