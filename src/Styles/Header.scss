@@ -1,9 +1,12 @@
 .header {
-    color: white;
-    height: 100px;
-    width: 80%;
+    width: 100%;
+    height: 150px;
     display: flex;
-    margin: auto;
+    color: white;
+    z-index: 11;
+    padding: 40px;
+    position: relative;
+    justify-content: flex-end;
 }
 .logo-name {
     width: 30%;
@@ -18,12 +21,9 @@
 .nav-link {
     flex-grow: 2;
 }
-.active {
-    color: red;
-}
 
 nav {
-    width: 30%;
+    display: flex;
 }
 
 ul {
@@ -32,4 +32,13 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
+    padding: 0px;
+
+
+    li a{
+        color: white;
+    }
 }
+

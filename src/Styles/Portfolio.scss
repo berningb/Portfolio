@@ -1,0 +1,38 @@
+.portfolio {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    h1 {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      color: white;
+      padding: 150px;
+      background-color:#20333F;
+    }
+
+    .showcase{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      background-color: white;
+    }
+}
+  
+.projectList {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+  .showcase {
+    flex-direction: column;
+  }
+}
