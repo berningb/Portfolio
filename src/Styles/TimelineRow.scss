@@ -10,14 +10,19 @@
         width: 45%;
         height: auto;
         order: 1;
-        padding: 40px;
-        font-size: 24px;
+        padding: 10px;
+        font-size: 20px;
         border-radius: 1.25rem;
 
 
         .card-header {
             border: 0px;
             background: white;
+            padding: 10px;
+
+        }
+        .card-body {
+            padding: 10px;
         }
     }
     .icon {
@@ -34,6 +39,15 @@
             margin: auto;
             border-radius: 100%;
             background-color: white;
+            border: 1px solid rgba(0,0,0,.125);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 50px;
+                width: 50px;
+            }
         }
     }
     .date {

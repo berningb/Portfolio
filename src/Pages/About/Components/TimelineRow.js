@@ -12,13 +12,16 @@ export default class TimelineRow extends Component {
                     </div>
                     <div className='card-body'>
                         <p>{this.props.data.description}</p>
+                        <a href={this.props.data.link}><span>Check it out!</span></a>
                     </div>
                 </div>
                 <div className='icon'>
-                    <div className='pop'></div>
+                    <div className='pop'>
+                        <img alt='icon' src={this.props.data.icon} />
+                    </div>
                 </div>
                 <div className='date'>
-                    January 1st 2018
+                    {this.props.data.date}
                 </div>
             </div>
            

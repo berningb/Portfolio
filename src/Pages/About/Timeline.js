@@ -9,7 +9,7 @@ export default class Timeline extends Component {
 
     render() {
         let timelineRows = []
-        fakeData.projects.forEach((element, index) => {
+        fakeData.timeline.forEach((element, index) => {
             timelineRows.push( <TimelineRow data={element} right={index % 2} />)
         });
 

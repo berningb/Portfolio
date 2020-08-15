@@ -7,7 +7,7 @@ import AnimatedCover from '../../Components/AnimatedCover'
 import '../../Styles/About.scss'
 import Portfolio from './Portfolio'
 
-export default class About extends Component {
+export default class AboutContainer extends Component {
     render() {
         return (
             <div className='about'>

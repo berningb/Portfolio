@@ -3,10 +3,11 @@
     height: 150px;
     display: flex;
     color: white;
-    z-index: 11;
     padding: 40px;
     position: relative;
     justify-content: flex-end;
+    z-index: 11;
+
 }
 .logo-name {
     width: 30%;
@@ -39,6 +40,11 @@ ul {
 
     li a{
         color: white;
+        font-size: 26px;
+    }
+    a:hover {
+        color: rgb(84, 140, 166);
+        text-decoration: none;
     }
 }
 
